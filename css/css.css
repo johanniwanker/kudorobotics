@@ -1,3 +1,4 @@
+/* Main */
 body{
     min-height: 100vh;
     display: flex;
@@ -9,17 +10,6 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     font-family: lato;
-}
-header{
-    height: 50px;
-    border: 1px solid red;
-}
-a{
-    text-decoration: none;
-    color: #000;
-}
-a:hover{
-    color: #00A19B;
 }
 section{
     flex: 1;
@@ -33,6 +23,31 @@ main{
     flex: 1;
     border: 1px solid red;
 }
+.content{
+    width: 75%;
+    margin: auto;
+}
+
+/* Header */
+header{
+    height: 50px;
+    border-bottom: 5px solid #00A19B;
+    background: #F1F1F2;
+}
+.icon{
+    height: 36px;
+}
+.icon-width{
+    width: 150px;
+}
+.logo{
+    height: 50px;
+}
+.navigation{
+    width: 250px;
+}
+
+/* Footer */
 footer{
     display: flex;
     flex-direction: column;
@@ -41,10 +56,7 @@ footer{
     height: 75px;
     background: #F1F1F2;
     border-top: 5px solid #00A19B;
-}
-.content{
-    width: 75%;
-    margin: auto;
+    padding-bottom: 5px;
 }
 .some{
     width: 200px;
@@ -54,12 +66,33 @@ footer{
 .some_icon{
     height: 25px;
 }
+.kontakt{
+    width: 120px;
+}
+
+/* Fonts */
+
+
+/* Links */
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #00A19B;
+}
+.current{
+    font-weight: bold;
+    color: #044C7F;
+}
+
+/* Flex */
 .flex{
     display: flex;
 }
 .space{
     justify-content: space-between;
 }
-.kontakt{
-    width: 120px;
+.center{
+    align-items: center;
 }
