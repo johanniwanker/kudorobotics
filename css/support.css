@@ -1,0 +1,11 @@
+.grey{
+    background: grey;
+    width: 100%;
+}
+.blue{
+    background: blue;
+    width: 100%;
+}
+.box{
+    flex: 1;
+}

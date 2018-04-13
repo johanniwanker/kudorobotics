@@ -146,10 +146,6 @@ a{
 	width: 60%;
 	}
 
-	.flex2{
-		display: flex;
-		justify-content: space-between;
-	}
 
 	.knap {
 			background-color: rgb(255, 255, 255);
@@ -199,7 +195,7 @@ a{
     flex-direction: column;
     margin-left: 2.1%;
     justify-content: space-between;
-    margin-top: 2%;
+    margin-top: 20px;
     }
 
     .profilHvid {
@@ -267,7 +263,6 @@ a{
     flex-direction: column;
     margin-bottom: 20px;
     justify-content: flex-end;
-    width: 100;
     }
 
     .titelVenstre{
