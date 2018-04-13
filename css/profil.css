@@ -1,348 +1,138 @@
-/* Main */
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 100%;
-    background-image: url("../img/bg.png");
-    background-color: #FFF;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    font-family: lato;
-}
-section{
-    flex: 1;
-    display: flex;
-}
-.left{
-    display: flex;
-    width: 25%;
-}
-main{
-    flex: 1;
-}
-.content{
-    display: flex;
-    width: 75%;
-    margin: auto;
+.profilMig {
+margin-top: 50px;
+background-color: rgb(241, 241, 242);
+box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+width: 97.9%;
+height: 242px;
+display: flex;
+flex-direction: column;
+margin-left: 2.1%;
+justify-content: flex-end;
 }
 
-/* Header */
-header{
-    height: 50px;
-    border-bottom: 5px solid #00A19B;
-    background: #F1F1F2;
-}
-.icon{
-    height: 36px;
-}
-.icon-width{
-    width: 150px;
-}
-.logo{
-    height: 50px;
-}
-.navigation{
-    width: 250px;
+.profilInfo {
+margin: 20px 0px 0px 20px;
+width: 40%;
+height: 242px;
+display: flex;
+flex-direction: column;
 }
 
-/* Footer */
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 75px;
-    background: #F1F1F2;
-    border-top: 5px solid #00A19B;
-    padding-bottom: 5px;
-}
-.some{
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-}
-.some_icon{
-    height: 25px;
-}
-.kontakt{
-    width: 120px;
+.profilUnder {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 
-/* Fonts */
-
-
-/* Links */
-a{
-    text-decoration: none;
-    color: #000;
-}
-.navi:hover{
-    color: #00A19B;
-}
-.current{
-    font-weight: bold;
-    color: #044C7F;
+.profilTitel {
+margin-top: 9px;
+text-align: center;
+font-weight: bold;
 }
 
-/* Flex */
-.flex{
-    display: flex;
+.skrivHer{
+padding: 4px 6px 4px 6px;
+margin: 5px;
+border-width: 0.5px;
+font-size: 14px;
+border-style: solid;
+width: 60%;
 }
-.space{
-    justify-content: space-between;
+
+
+.knap {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
+border: none;
+width: 127px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+padding: 9px;
 }
-.center{
-    align-items: center;
+
+button:focus {outline:0;}
+
+.knap:hover {
+box-shadow: 0px 0px 8px 0.45px rgba(0, 0, 0, 0.3);
+}
+
+.knap:active {
+box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
+}
+
+.knapFlex
+{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+margin: 20px 20px 20px 0px;
 }
 
 .grid{
-	display: flex;
-	flex-flow: row;
-	justify-content: flex-start;
-	margin-top: 50px;
-	width: 100%;
-  }
+display: flex;
+flex-flow: row;
+justify-content: flex-start;
+margin-top: 50px;
+width: 100%;
+}
 
-  .profilMig {
-	margin-top: 50px;
-  background-color: rgb(241, 241, 242);
-  box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
-  width: 97.9%;
-  height: 242px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 2.1%;
-	justify-content: flex-end;
-  }
+.profilEgne {
+background-color: rgb(241, 241, 242);
+box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+width: 97.9%;
+height: 242px;
+display: flex;
+flex-direction: column;
+margin-left: 2.1%;
+justify-content: space-between;
+margin-top: 20px;
+}
 
-	.profilInfo {
-	margin: 20px 0px 0px 20px;
-	width: 40%;
-	height: 242px;
-	display: flex;
-	flex-direction: column;
-	}
+.profilHvid {
+background-color: rgb(255, 255, 255);
+width: 31.18%;
+height: 183px;
+display: flex;
+flex-direction: column;
+}
 
-	.profilUnder {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	}
+.profilCards {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
 
-  .profilTitel {
-  margin-top: 9px;
-	text-align: center;
-	font-weight: bold;
-  }
+.profilTitel {
+margin-top: 9px;
+text-align: center;
+font-weight: bold;
+}
 
-	.skrivHer{
-	padding: 4px 6px 4px 6px;
-	margin: 5px;
-	border-width: 0.5px;
-	font-size: 14px;
-	border-style: solid;
-	width: 60%;
-	}
+.matematikProfil {
+background-color: rgb(52, 88, 103);
+height: 59px;
+color: white;
+text-align: center;
+}
+
+.danskProfil {
+background-color: rgb(52, 103, 92);
+height: 59px;
+color: white;
+text-align: center;
+}
+
+.kodningProfil {
+background-color: rgb(120, 165, 163);
+height: 59px;
+color: white;
+text-align: center;
+}
 
 
-	.knap {
-			background-color: rgb(255, 255, 255);
-			box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
-			border: none;
-			width: 127px;
-			text-align: center;
-			text-decoration: none;
-			display: inline-block;
-			font-size: 16px;
-			cursor: pointer;
-			padding: 9px;
-	}
-
-	button:focus {outline:0;}
-
-	.knap:hover {
-	box-shadow: 0px 0px 8px 0.45px rgba(0, 0, 0, 0.3);
-	}
-
-	.knap:active {
-	box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
-	}
-
-	.knapFlex
-	{
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end;
-		margin: 20px 20px 20px 0px;
-	}
-
-  .grid{
-    display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    margin-top: 50px;
-    width: 100%;
-    }
-
-    .profilEgne {
-    background-color: rgb(241, 241, 242);
-    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
-    width: 97.9%;
-    height: 242px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 2.1%;
-    justify-content: space-between;
-    margin-top: 20px;
-    }
-
-    .profilHvid {
-    background-color: rgb(255, 255, 255);
-    width: 31.18%;
-    height: 183px;
-    display: flex;
-    flex-direction: column;
-    }
-
-    .profilCards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    }
-
-    .profilTitel {
-    margin-top: 9px;
-    text-align: center;
-    font-weight: bold;
-    }
-
-    .matematikProfil {
-    background-color: rgb(52, 88, 103);
-    height: 59px;
-    color: white;
-    text-align: center;
-    }
-
-    .danskProfil {
-    background-color: rgb(52, 103, 92);
-    height: 59px;
-    color: white;
-    text-align: center;
-    }
-
-    .kodningProfil {
-    background-color: rgb(120, 165, 163);
-    height: 59px;
-    color: white;
-    text-align: center;
-    }
-
-    .cardText {
-    margin: 5px 30px 0px 30px;
-    }
-
-    .titelCard {
-    margin-top: 9px;
-    }
-
-    .column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 50px;
-    width: 100%;
-    }
-
-    .cardColumn {
-    background-color: rgb(241, 241, 242);
-    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
-    height: 242px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    justify-content: flex-end;
-    }
-
-    .titelVenstre{
-    font-weight: bold;
-    position: relative
-    }
-
-    .forfatterSvar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-style: italic;
-    font-size: 12px;
-    }
-
-    .forfatterVenstre{
-    font-style: italic;
-    font-size: 12px;
-    text-align: right;
-    }
-
-    .hvidTekst {
-    width: 66%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 5px;
-    }
-
-    .matematikLeft {
-    background-color: rgb(52, 88, 103);
-    color: white;
-    width: 33%;
-    }
-
-    .danskLeft {
-    background-color: rgb(52, 103, 92);
-    color: white;
-    width: 33%;
-    }
-
-    .kodningLeft {
-    background-color: rgb(120, 165, 163);
-    color: white;
-    width: 33%;
-    }
-
-    .hvidBox {
-    background-color: rgb(255, 255, 255);
-    height: 59px;
-    margin-top: 2px;
-    display: flex;
-    flex-direction: row;
-    }
-
-    .hvidNyhed {
-    background-color: rgb(255, 255, 255);
-    height: 59px;
-    margin-top: 2px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    }
-
-    .overskriftVenstre {
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 20px;
-    }
-
-    .textLeft {
-    margin: 8px;
-    }
-
-    h1 {
-      text-align: left;
-      font-size: 20px;
-      margin-left: 25px;
-      margin-bottom: -40px;
-      margin-top: 20px;
-      font-weight: bold;
-    }
+.textLeft {
+margin: 8px;
+}
