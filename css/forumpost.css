@@ -1,0 +1,18 @@
+.forumwrap{
+    margin-top: 50px;
+    margin-left: 2.1%;
+}
+.forumpost{
+    background: blue;
+    height: 242px;
+    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+}
+.forumkommentar{
+    background: yellow;
+    margin-top: 20px;
+    min-height: 504px;
+    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+}
+.forumpostet{
+    background: pink;
+}
