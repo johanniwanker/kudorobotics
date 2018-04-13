@@ -5,25 +5,35 @@
         <title>KEDU - The Educational Community and Curriculum Platform</title>
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/profil.css" rel="stylesheet">
+        <link href="css/css.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="img/favicon.png">
     </head>
 
     <body>
-        <header>
-            <div class="content flex space center">
-                <a href="index.html"><img class="logo" src="img/header/kedu_logo.png"></a>
-                <ul class="flex space navigation">
-                    <li><a class="navi" href="lektioner.html">Lektioner</a></li>
-                    <li><a class="navi" href="forum.html">Forum</a></li>
-                    <li><a class="navi" href="support.html">Support</a></li>
-                </ul>
-                <div class="flex space icon-width">
-                    <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
-                    <a href="notifikationer.html"><img class="icon" src="img/header/notiknaptre.png"></a>
-                    <a href="profil.html"><img class="icon" src="img/header/profil.png"></a>
+      <header>
+          <div class="content flex space center">
+              <a href="index.html"><img class="logo" src="img/header/kedu_logo.png"></a>
+              <ul class="flex space navigation">
+                  <li><a class="navi" href="lektioner.html">Lektioner</a></li>
+                  <li><a class="navi" href="forum.html">Forum</a></li>
+                  <li><a class="navi" href="support.html">Support</a></li>
+              </ul>
+              <div class="flex space icon-width">
+                <div class="tooltip">
+                  <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
+                  <span class="tooltipsoeg">Søg</span>
                 </div>
-            </div>
-        </header>
+                <div class="tooltip">
+                  <a href="notifikationer.html"><img class="icon noti" src="img/header/notiknaptre.png"></a>
+                  <span class="tooltipnoti">Notifikationer</span>
+                </div>
+                <div class="tooltip">
+                  <a href="profil.html"><img class="icon profil" src="img/header/profil.png"></a>
+                  <span class="tooltipprofil">Min Side</span>
+                </div>
+              </div>
+          </div>
+      </header>
 
         <section class="content">
 
@@ -39,7 +49,8 @@
                 </div>
                 <div class="hvidTekst">
                 <p class="titelVenstre">Ende/ene </p>
-                <p class="forfatterVenstre">af Bjarne Sørensen</p>
+                <p class="forfatterSvar">4 kommentarer</p>
+                <p class="forfatterVenstre">af Brita P.</p>
               </div>
               </a>
               <a href="lektion.html" class = "hvidBox">
@@ -49,7 +60,8 @@
               </div>
                 <div class="hvidTekst">
               <p class="titelVenstre"> Grundtrinenenene </p>
-              <p class="forfatterVenstre">af Bjarne Sørensen</p>
+              <p class="forfatterSvar">12 kommentarer</p>
+              <p class="forfatterVenstre">af Per B.</p>
               </div>
               </a>
               <a href="lektion.html" class = "hvidBox">
@@ -59,7 +71,8 @@
               </div>
                 <div class="hvidTekst">
               <p class="titelVenstre"> De rette loops </p>
-              <p class="forfatterVenstre">af Bjarne Sørensen</p>
+              <p class="forfatterSvar">23 kommentarer</p>
+              <p class="forfatterVenstre">af Tina P.</p>
               </div>
               </a>
               </div>
@@ -74,8 +87,6 @@
                 <div class="hvidTekst">
                 <p class="titelVenstre">KUBO i en inklussionsklasse? </p>
                 <div class = "forfatterSvar">
-                <p>23 svar</p>
-                <p>af Brita P.</p>
               </div>
               </div>
               </a>
@@ -86,10 +97,6 @@
               </div>
                 <div class="hvidTekst">
               <p class="titelVenstre"> Grundtrinenenene </p>
-              <div class = "forfatterSvar">
-              <p>3 svar</p>
-              <p>af Per B.</p>
-              </div>
               </div>
               </a>
               <a href="opretlektion.html" class = "hvidBox">
@@ -99,10 +106,6 @@
               </div>
               <div class="hvidTekst">
               <p class="titelVenstre"> KUBO - Mere leg end læring </p>
-              <div class = "forfatterSvar">
-              <p>33 svar</p>
-              <p>af Tina B.</p>
-              </div>
               </div>
               </a>
               </div>
@@ -169,7 +172,7 @@
                   <a href="lektion.html" class= "profilHvid">
                     <div class= "matematikProfil">
                       <h4 class= "titelCard">Lær at plusse med KUBO</h4>
-                      <h4 class= "titelCard">Kodning - 2. klasse</h4>
+                      <h4 class= "titelCard">Matematik - 2. klasse</h4>
                     </div>
                     <p class= "cardText">
                         I denne lektion vil eleverne lærer
@@ -195,7 +198,7 @@
                   <a href="lektion.html" class= "profilHvid">
                     <div class= "matematikProfil">
                       <h4 class= "titelCard">Lær at plusse med KUBO</h4>
-                      <h4 class= "titelCard">Kodning - 2. klasse</h4>
+                      <h4 class= "titelCard">Matematik - 2. klasse</h4>
                     </div>
                     <p class= "cardText">
                         I denne lektion vil eleverne lærer
@@ -213,7 +216,7 @@
         <footer>
             <div class="content flex space">
                 <div class="flex space kontakt">
-                    <h4><a href="about.html">Om os</a></h4>
+                    <h4><a href="https://kubo-robot.com/our-story/" target="_blank">Om os</a></h4>
                     <h4><a href="kontakt.html">Kontakt</a></h4>
                 </div>
                 <div class="some flex">
