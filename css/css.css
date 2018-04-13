@@ -74,11 +74,27 @@ footer{
 /* Fonts */
 h1 {
   text-align: left;
-  font-size: 16px;
+  font-size: 24px;
   margin-left: 25px;
   margin-bottom: -37px;
   margin-top: 20px;
   font-weight: bold;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+
+p{
+    font-size: 16px;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
 }
 
 /* Links */
@@ -97,6 +113,10 @@ a{
 /* Flex */
 .flex{
     display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
 .space{
