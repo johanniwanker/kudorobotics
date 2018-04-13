@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     font-family: lato;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 section{
     flex: 1;
