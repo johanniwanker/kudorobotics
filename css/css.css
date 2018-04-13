@@ -96,3 +96,8 @@ a:hover{
 .center{
     align-items: center;
 }
+
+/* andet */
+.pagination{
+    width: 120px;
+}
