@@ -249,14 +249,14 @@ display: flex;
 flex-direction: row;
 	}
 
-	.hvidNyhed {
-	background-color: rgb(255, 255, 255);
-	height: 59px;
-	margin-top: 2px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	}
+.hvidNyhed {
+background-color: rgb(255, 255, 255);
+height: 59px;
+margin-top: 2px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
 
 	.overskriftVenstre {
 text-align: center;
@@ -265,9 +265,10 @@ font-size: 16px;
 margin-bottom: 20px;
 	}
 
-	.textLeft {
-	margin: 8px;
-	}
+.textLeft {
+margin: 8px;
+}
+
 .pagination{
     width: 120px;
 }
