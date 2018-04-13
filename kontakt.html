@@ -5,6 +5,7 @@
         <title>KEDU - The Educational Community and Curriculum Platform</title>
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/css.css" rel="stylesheet">
+        <link href="css/support.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="img/favicon.png">
     </head>
 
@@ -15,7 +16,7 @@
                 <ul class="flex space navigation">
                     <li><a class="navi" href="lektioner.html">Lektioner</a></li>
                     <li><a class="navi" href="forum.html">Forum</a></li>
-                    <li><a class="navi" href="support.html">Support</a></li>
+                    <li><a class="navi current" href="support.html">Support</a></li>
                 </ul>
                 <div class="flex space icon-width">
                     <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
@@ -25,12 +26,43 @@
             </div>
         </header>
 
-        <section class="content">
-            <div class="left">
-                Venstre
-            </div>
-            <main>
-                Her vil indholdet være
+        <section class="content margin-t-50">
+            <main class="flex">
+                <div class="flex-column fyld">
+                    <a class="small-button" href="support.html">
+                        <h2>FAQ</h2>
+                    </a>
+                    <a class="small-button site" href="kontakt.html">
+                        <h2>Kontakt</h2>
+                    </a>
+                    <a class="small-button" href="manualer.html">
+                        <h2>Manualer</h2>
+                    </a>
+                </div>
+                <div class="box">
+                    <div class="flex space">
+                        <div>
+                            <p class="bold">Har du brug for hjælp?</p>
+                            <p>I så fald kan du skrive til os i kontaktformularen herunder, og vi vender tilbage hurtigst muligt.</p>
+                        </div>
+                        <img class="mail" src="img/mail.png">
+                    </div>
+
+                    <form action="kontakt.html" class="flex-column" method="post">
+                        <textarea rows="10"></textarea>
+                        <div class="knappen flex">
+                            <input class="knap" type="submit" value="Send">
+                        </div>
+                    </form>
+                    <div class="jans-boks">
+                        <div class="boks-jan flex">
+                            <p><a href="">Klik for support</a></p>
+                            <p class="mini"><a href="">x</a></p>
+                        </div>
+
+                        <img class="billed-jan" src="img/jan.jpg">
+                    </div>
+                </div>
             </main>
         </section>
 
@@ -38,7 +70,7 @@
             <div class="content flex space">
                 <div class="flex space kontakt">
                     <h4><a href="about.html">Om os</a></h4>
-                    <h4><a class="current" href="kontakt.html">Kontakt</a></h4>
+                    <h4><a href="kontakt.html">Kontakt</a></h4>
                 </div>
                 <div class="some flex">
                     <a href="https://www.instagram.com/kubo_robotics/" target="_blank"><img class="some_icon" src="img/some/insta.png"></a>
