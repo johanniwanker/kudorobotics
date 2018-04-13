@@ -1,0 +1,37 @@
+.ny{
+    background: #f1f1f2;
+}
+.photo{
+    height: 50px;
+    width: 75px;
+}
+.symbol{
+    height: 45px;
+}
+.lektioner{
+    background: #34675C;
+}
+.forum{
+    background: #345867;
+}
+.picture{
+    width: 75px;
+    height: 50px;
+    margin-right: 20px;
+}
+.center-center{
+    justify-content: center;
+    align-items: center;
+}
+.notifikationer{
+    border-bottom: 1px solid #000;
+}
+.kubo{
+    font-style: italic;
+}
+.ul-noti{
+    margin: 5px 0px 10px 0px;
+}
+.margin-b-10{
+    margin-bottom: 10px;
+}
