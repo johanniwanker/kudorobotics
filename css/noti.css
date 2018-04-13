@@ -30,8 +30,12 @@
     font-style: italic;
 }
 .ul-noti{
-    margin: 5px 0px 10px 0px;
+    margin: 50px 0px 10px 2px;
 }
 .margin-b-10{
     margin-bottom: 10px;
+}
+
+.notititel{
+  margin-left: 2px;
 }
