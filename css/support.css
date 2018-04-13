@@ -71,8 +71,8 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
 .jans-boks{
     position: absolute;
     z-index: 50;
-    right: 780px;
-    bottom: 0px;
+    right: 103%;
+    bottom: 0%;
     width: 75px;
 }
 .billed-jan{
