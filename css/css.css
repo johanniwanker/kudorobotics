@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     font-family: lato;
+    overflow: scroll;
 }
 section{
     flex: 1;
@@ -104,8 +105,6 @@ a{
 .center{
     align-items: center;
 }
-
-/* andet */
 
 .grid{
 display: flex;
