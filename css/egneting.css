@@ -1,24 +1,4 @@
-.tooltip .tooltipsoeg, .tooltipnoti, .tooltipprofil{
-    visibility: hidden;
-    height: 14px;
-    background-color: white;
-    color: #4f4f4f;
-    text-align: center;
-    padding: 3px;
-    border: 0.5px solid black;
-    box-shadow: 2px 2px 5px -2px rgba(79,79,79,0.75);
-    font-size: 14px;
-    margin-top: 5px;
-    position: absolute;
-    z-index: 1;
-    opacity: 1;
-    transition-delay: 0.5s;
-  }
 
-.tooltip:hover .tooltipsoeg, .tooltip:hover .tooltipnoti, .tooltip:hover .tooltipprofil {
-    visibility: visible;
-
-}
 
 
                                     .grid{
