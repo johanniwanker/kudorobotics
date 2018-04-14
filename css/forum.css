@@ -94,3 +94,114 @@
                   	.searchKnap:hover{
                   	box-shadow: 0px 0px 3.55px 0.45px rgba(0, 0, 0, 0.3);
                   	}
+
+
+                      .forumColumn {
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: flex-start;
+                      margin-top: 50px;
+                    	margin-left: 2.1%;
+                      margin-bottom: 20px;
+                      }
+
+
+                    	.graaKasser {
+                      background-color: rgb(241, 241, 242);
+                      height: 116px;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: flex-start;
+                      width: 100;
+                      }
+
+                    	.usynligKasser {
+                    	height: 116px;
+                    	display: flex;
+                    	flex-direction: row;
+                    	justify-content: flex-start;
+                    	width: 100;
+                    	}
+
+                    	.pointMatematik{
+                    		background-color: rgb(200, 200, 200);
+                    	height: 116px;
+                    	width: 116px;
+
+                    	}
+                    	.pointDansk{
+                    		background-color: rgb(52, 103, 92);
+                    		height: 116px;
+                    		width: 116px;
+                    	}
+                    	.pointKodning{
+                    		background-color: rgb(120, 165, 163);
+                    		height: 116px;
+                    		width: 116px;
+                    	}
+
+                    	.nyKasse {
+                    			height: 116px;
+                    			width: 116px;
+
+                    	}
+
+                    	.pointKommentar{
+                    		display: flex;
+                    		flex-direction: row;
+                    	}
+
+                    	.pointTekst{
+                    	color: white;
+                    	font-weight: bold;
+                    	font-size: 50px;
+                    	text-align: center;
+                    	margin-top: 20px;
+                    	}
+
+
+                    	.kommentarTekst{
+                    		font-size: 14px;
+                    		color: white;
+                    		text-align: center;
+                    		margin-top: 15px;
+
+                    	}
+
+                    	.forumTekst {
+                    		display: flex;
+                    		flex-direction: column;
+                    		justify-content: space-between;
+                    		width: 85%;
+                    	}
+
+                    	.forumTitel {
+                    		font-size: 32px;
+                    		margin: 22px 20px 0px 20px;
+                    		font-weight: bold;
+                    	}
+
+                    	.forumBund {
+                    		display: flex;
+                    		justify-content: space-between;
+                    		margin: 20px 0px 10px 20px;
+
+                    	}
+                    	.flexBund {
+                    		display: flex;
+                    		justify-content: space-between;
+
+                    	}
+                    	.paddingLeft {
+                    	padding: 0px 0px 5px 60px;
+                    	}
+
+                    	.paddingRight {
+                    	padding: 0px 60px 5px 0px;
+                    	}
+
+                    	.forumPlus{
+                    	width: 80%;
+                    	height: 80%;
+                    padding: 10px 0px 0px 10px;
+                    	}
