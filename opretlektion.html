@@ -5,48 +5,160 @@
         <title>KEDU - The Educational Community and Curriculum Platform</title>
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/css.css" rel="stylesheet">
+        <link href="css/opretlektion.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="img/favicon.png">
     </head>
 
     <body>
-      <header>
-          <div class="content flex space center">
-              <a href="index.html"><img class="logo" src="img/header/kedu_logo.png"></a>
-              <ul class="flex space navigation">
-                  <li><a class="navi current" href="lektioner.html">Lektioner</a></li>
-                  <li><a class="navi" href="forum.html">Forum</a></li>
-                  <li><a class="navi" href="support.html">Support</a></li>
-              </ul>
-              <div class="flex space icon-width">
-                <div class="tooltip">
-                  <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
-                  <span class="tooltipsoeg">Søg</span>
+        <header>
+            <div class="content flex space center">
+                <a href="index.html"><img class="logo" src="img/header/kedu_logo.png"></a>
+                <ul class="flex space navigation">
+                    <li><a class="navi" href="lektioner.html">Lektioner</a></li>
+                    <li><a class="navi" href="forum.html">Forum</a></li>
+                    <li><a class="navi" href="support.html">Support</a></li>
+                </ul>
+                <div class="flex space icon-width">
+                    <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
+                    <a href="notifikationer.html"><img class="icon" src="img/header/notiknaptre.png"></a>
+                    <a href="profil.html"><img class="icon" src="img/header/profil.png"></a>
                 </div>
-                <div class="tooltip">
-                  <a href="notifikationer.html"><img class="icon noti" src="img/header/notiknaptre.png"></a>
-                  <span class="tooltipnoti">Notifikationer</span>
-                </div>
-                <div class="tooltip">
-                  <a href="profil.html"><img class="icon profil" src="img/header/profil.png"></a>
-                  <span class="tooltipprofil">Min Side</span>
-                </div>
-              </div>
-          </div>
-      </header>
+            </div>
+        </header>
 
         <section class="content">
-            <div class="left">
-                Venstre
+
+            <div class = "left">
+              <div class = "column">
+
+              <div class = "om_lektion">
+              <a class="overskriftVenstre"> Om Lektion </a>
+              <a class = "hvid_om">
+                <div class="om_flex">
+                  <form>
+                    <textarea class="om_textarea" placeholder="En kort beskrivelse af lektionen"></textarea>
+                  </form>
+                <div class="bund_tekst">
+
+                  <div class="flex center">
+                  <p> Niveau:</p>
+                  <form>
+                    <select name="niveau" class="select margin_left">
+                      <option value="begynder">Begynder</option>
+                      <option value="letoevet">Let øvet</option>
+                      <option value="oevet">Øvet</option>
+                      <option value="ekspert">Ekspert</option>
+                    </select>
+                  </form>
+                </div>
+
+                  <div class="flex center">
+                  <p> Estimeret tid tilbage:</p>
+                  <input type="text" class="tilbage margin_left">
+                  <p>   min.</p>
+                </div>
+
+                </div>
+              </div>
+              </a>
+              </div>
+
+              <div class = "downloads">
+              <a class="overskriftVenstre"> Materialer </a>
+                <div class = "hvid_download">
+                <div class="padding_download">
+              <div class="materials">
+              <a href=""><img class="icon" src="img/mats/bfunc.png"></a>
+              <a href=""><img class="icon" src="img/mats/bfuncend.png"></a>
+              <a href=""><img class="icon" src="img/mats/playb.png"></a>
+              <a href=""><img class="icon" src="img/mats/rfunc.png"></a>
+              <a href=""><img class="icon" src="img/mats/rfuncend.png"></a>
+              <a href=""><img class="mat_img" src="img/mats/map.png"></a>
+              <a href=""><img class="mat_img" src="img/mats/loops.png"></a>
+              <a href=""><img class="mat_img" src="img/mats/KUBO.png"></a>
+              <a href=""><img class="icon" src="img/mats/pencils.png"></a>
+              <a href=""><img class="icon" src="img/mats/straight.png"></a>
+              <a href=""><img class="icon" src="img/mats/right.png"></a>
+              <a href=""><img class="icon" src="img/mats/left.png"></a>
+
             </div>
+            </div>
+            </div>
+              </div>
+              </div>
+              </div>
+
+              <div class="lektion_progress">
+              <a href=""><p class="progress_start"> &#9658;</p></a>
+              <div class="linje"></div>
+              <a href=""><p class="progress_ny"> 1.1</p></a>
+              <div class="linje"></div>
+              <a href="" class="progress_slut"><img class="plus" src="img/opret.png"></a>
+              </div>
+
+
+
             <main>
-                Her vil indholdet være
-            </main>
+              <div class="lektion_column">
+              <div class= "lektion">
+                <div class="nyLektion">
+                <input class="titel_input" type="text" placeholder="Skriv titel her">
+                <div class="lektion_undertitel">
+                <div class="flex">
+
+
+
+                  <form>
+                    <select name="fag" class="select">
+                      <option value="fag">Fag</option>
+                      <option value="dansk">Dansk</option>
+                      <option value="matematik">Matematik</option>
+                      <option value="kodning">Kodning</option>
+                    </select>
+                  </form>
+
+
+
+                <form>
+                  <select name="klasse" class="select">
+                    <option value="klassetrin">Klassetrin</option>
+                    <option value="nul">0. klasse</option>
+                    <option value="et">1. klasse</option>
+                    <option value="to">2. klasse</option>
+                    <option value="tre">3. klasse</option>
+                    <option value="fire">4. klasse</option>
+                    <option value="fem">5. klasse</option>
+                    <option value="seks">6. klasse</option>
+                  </select>
+                </form>
+
+
+                </div>
+                </div>
+
+
+              </div>
+              <div class = "hvid_lektion">
+                  <form>
+                    <div class="textwrapper"><textarea class="lektion_textarea" placeholder="Beskriv lektionen nærmere"></textarea></div>
+                  </form>
+              </div>
+              </div>
+              <div class="bund_knap">
+              <a class="knap_opret"> Vedhæft </a>
+              <div class="flex">
+                <a class="knap_opret"> Kladde </a>
+                <div class="knap_hoejre"><a class="knap_opret"> Send </a></div>
+              </div>
+              </div>
+            </div>
+               </main>
         </section>
 
         <footer>
             <div class="content flex space">
                 <div class="flex space kontakt">
-                    <h4><a href="https://kubo-robot.com/our-story/" target="_blank">Om os</a></h4>
+                    <h4><a href="about.html">Om os</a></h4>
                     <h4><a href="kontakt.html">Kontakt</a></h4>
                 </div>
                 <div class="some flex">

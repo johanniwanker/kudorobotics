@@ -1,0 +1,407 @@
+    .lektion_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+
+
+    .nyLektion {
+    background-color: rgb(033, 099, 147);
+    height: 59px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    }
+
+    .lektion_undertitel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 20px 5px 20px;
+    }
+
+
+
+    .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    width: 100%;
+    }
+
+    .downloads {
+    background-color: rgb(241, 241, 242);
+    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+
+    }
+
+
+    .lektion {
+    background-color: rgb(241, 241, 242);
+    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+    height: 728px;
+    display: flex;
+    flex-direction: column;
+  	justify-content: flex-start;
+    }
+
+
+    .om_lektion {
+    background-color: rgb(241, 241, 242);
+    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+    height: 504px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    }
+
+
+
+
+    .forfatterSvar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 12px;
+    }
+
+    .hvid_lektion {
+    background-color: rgb(255, 255, 255);
+    height: 669px;
+    width: 100%;
+    margin-top: 2px;
+
+
+    }
+
+
+    .hvid_download {
+    background-color: rgb(255, 255, 255);
+    height: 183px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .hvid_om {
+    background-color: rgb(255, 255, 255);
+    height: 445px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+    .overskriftVenstre {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 20px;
+    }
+
+    .padding_undertitel {
+    padding-right: 20px;
+    }
+
+    .titel_lektion {
+    font-size: 20px;
+    padding: 5px 5px 5px 20px;
+
+    }
+
+    .padding_download {
+    padding: 10px;
+    }
+
+
+    .download_links:hover {
+    text-decoration: underline;
+
+    }
+
+    .om_flex: {
+    display: flex;
+    flex-direction: column;
+
+    }
+
+    .om_tekst {
+    padding: 10px;
+    line-height: 1.6;
+    height: 350px;
+    }
+
+    .lektion_tekst {
+    padding: 10px 20px 0px 20px;
+    line-height: 1.6;
+    }
+
+    .bund_tekst {
+    padding: 10px;
+    line-height: 1.6;
+    }
+
+    .kommentarer_hvid {
+      background-color: rgb(255, 255, 255);
+      height: 242px;
+      margin-top: 2px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .kommentarer_top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .kommentarer_midt {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .kommentarer_slut {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .kommentar_titel {
+    font-size: 24px;
+    padding: 20px;
+    }
+
+    .kommentar_tophoejre {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    }
+
+    .kommentar_pile{
+      display: flex;
+    flex-direction: column;
+    }
+
+    .pile {
+    width: auto;
+    height: 20px;
+    }
+
+    .point_tekst{
+    font-size: 20px;
+    padding: 10px 20px 10px 10px;
+    }
+
+    .kommentar_lektion {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    }
+
+    .kommentar_ikon {
+    width: 3%;
+    height: 3%;
+    padding-left: 20px;
+    }
+
+    .kommentar_forfatter {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+    white-space: nowrap;
+    }
+
+    .kommentar_tekst {
+    font-size: 16px;
+    padding-left: 3%;
+    padding-right: 20px;
+    }
+
+    .skriv_kommentar{
+  	padding: 5px 5px 5px 5px;
+    font-size: 16px;
+  	border-width: 0.5px;
+  	border-style: solid;
+    margin-left: 10px;
+  	width:77%;
+  	}
+
+  	.skriv_kommentar:focus {
+  	outline: none;
+  	}
+
+    .knap_opret {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 6px 30px 6px 30px;
+    }
+
+    button:focus {outline:0;}
+
+    .knap_opret:hover {
+    box-shadow: 0px 0px 8px 0.45px rgba(0, 0, 0, 0.3);
+    }
+
+    .knap_opret:active {
+    box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
+    }
+
+    .lektion_progress {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 2.1%;
+
+    }
+
+    .progress_start{
+    background-color: rgb(033, 099, 147);
+    height: 3%;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    }
+
+    .progress_slut{
+    background-color: rgb(255, 255, 255);
+    height: 2.7%;
+    color: black;
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(033, 099, 147);
+    color: rgb(033, 099, 147);
+    }
+
+    .progress_faerdig{
+    background-color: rgb(033, 099, 147);
+    height: 2%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(033, 099, 147);
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+
+    }
+    .progress_ny{
+    background-color: rgb(255, 255, 255);
+    height: 2%;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(033, 099, 147);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    }
+
+    .linje {
+        border-left: 6px solid rgb(033, 099, 147);
+        height: 50px;
+        margin-left: 38%;
+    }
+
+    .plus {
+    width: 100%;
+    height: 100%;
+    }
+
+    .firkant {
+    padding: 8px;
+    background-color: black;
+    margin: 3px;
+    }
+
+    .bund_knap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    }
+
+    .knap_hoejre {
+    padding-left: 10px;
+    }
+
+
+    .materials {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .mat_img {
+    height: 70px;
+    }
+
+    .om_textarea {
+      width: 100%;
+      height: 350px;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      border: none;
+      font-size: 16px;
+      resize: none;
+    }
+
+    .lektion_textarea {
+    width: 100%;
+    height: 669px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    resize: none;
+    }
+
+    .titel_input {
+    width: 100%;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 20px;
+    resize: none;
+    background-color: inherit;
+    color: white;
+    }
+
+    .tilbage {
+    width:30%;
+    text-align: right;
+    }
+
+    .select {
+    margin-right: 10px;
+    border-radius: 1px;
+    background-color: #f1f1f1;
+    }
+
+    .margin_left {
+    margin-left: 5px;
+    }
