@@ -15,11 +15,14 @@ function getLocal(){
     }
 }
 
-function submitNote(text){
+function submitNote(text, fag, klasse, today){
     var origPosts = getLocal();
 
     var newNote = {
         text:       text,
+        fag:        fag,
+        klasse:     klasse,
+        today:      today
     };
 
     origPosts.push(newNote);
@@ -35,20 +38,74 @@ function buildList(){
 
     for(var i = 0; i < noteList.length; i++){
         var liElm = document.createElement("li");
-        var pElm = document.createElement("p");
+        liElm.setAttribute("class", "list");
 
+        if(noteList[i].fag == "Matematik"){
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointMatematik'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        }
+        if(noteList[i].fag == "Dansk"){
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointDansk'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        }
+        if(noteList[i].fag == "Kodning"){
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointKodning'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        }
 
-        pElm.innerHTML = "<a href='forumpost.html' class='graaKasser'><div class='pointDansk'><p class='pointTekst'>1</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>Dansk</p><p class='paddingRight'>2. klasse</p></div><div class='flexBund'><p class='paddingLeft'>3. april 2017</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
-
-        liElm.appendChild(pElm);
         ulElm.appendChild(liElm);
     }
 }
 
 function submitNoteEvent(event) {
     var noteText = document.querySelector("#noteText");
+    var noteFag = document.querySelector("#noteFag");
+    var noteKlasse = document.querySelector("#noteKlasse");
 
-    submitNote(noteText.value);
+    var today = new Date();
+    var dd = today.getDate();
+    var mm = today.getMonth();
+    var yyyy = today.getFullYear();
+
+
+    if(mm==0){
+        mm = "januar";
+    }
+    if(mm==1){
+        mm = "februar";
+    }
+    if(mm==2){
+        mm = "marts";
+    }
+    if(mm==3){
+        mm = "april";
+    }
+    if(mm==4){
+        mm = "maj";
+    }
+    if(mm==4){
+        mm = "juni";
+    }
+    if(mm==6){
+        mm = "juli";
+    }
+    if(mm==7){
+        mm = "august";
+    }
+    if(mm==8){
+        mm = "september";
+    }
+    if(mm==9){
+        mm = "oktober";
+    }
+    if(mm==10){
+        mm = "november";
+    }
+    if(mm==11){
+        mm = "december";
+    }
+
+    today = dd + '. ' + mm + ' ' + yyyy;
+
+
+    submitNote(noteText.value, noteFag.value, noteKlasse.value, today);
     buildList();
     modal.style.display = "none";
 }

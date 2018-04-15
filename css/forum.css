@@ -263,3 +263,14 @@ textarea{
     height: 285px;
     box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
 }
+
+.kasser {
+height: 116px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 100;
+}
+.list:nth-child(odd){
+    background: rgb(241, 241, 242);
+}
