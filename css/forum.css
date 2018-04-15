@@ -1,207 +1,265 @@
 .column {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: flex-start;
-                    margin-top: 50px;
-                    width: 100%;
-                    }
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-top: 50px;
+width: 100%;
+}
 
-                    .cardColumn {
-                    background-color: rgb(241, 241, 242);
-                    box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
-                    height: 351px;
-                    display: flex;
-                    flex-direction: column;
-                    margin-bottom: 15px;
-                    justify-content: flex-start;
-                    width: 100%;
-                    }
+.cardColumn {
+background-color: rgb(241, 241, 242);
+box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
+height: 351px;
+display: flex;
+flex-direction: column;
+margin-bottom: 15px;
+justify-content: flex-start;
+width: 100%;
+}
 
-                    .hvidBoxfilter {
-                    background-color: rgb(255, 255, 255);
-                    margin: 5px 5px 0px 5px;
-                    display: flex;
-                    flex-direction: column;
-                  	padding-bottom: 9.5px;
-                  	}
+.hvidBoxfilter {
+background-color: rgb(255, 255, 255);
+margin: 5px 5px 0px 5px;
+display: flex;
+flex-direction: column;
+padding-bottom: 9.5px;
+}
 
-                  	.filterTitel{
-                  	font-size: 20px;
-                  	font-weight: bold;
-                  	padding-bottom: 8.5px;
-                  	}
+.filterTitel{
+font-size: 20px;
+font-weight: bold;
+padding-bottom: 8.5px;
+}
 
-                  	.paddingFilter {
-                  	padding-left: 8px;
+.paddingFilter {
+padding-left: 8px;
 
-                  	}
+}
 
-                  	.filterMargin {
-                  		margin-left: 5px;
-                  	}
+.filterMargin {
+margin-left: 5px;
+}
 
-                  	.knapFilter {
-                  	background-color: rgb(255, 255, 255);
-                  	box-shadow: 0px 0px 2px 0.45px rgba(0, 0, 0, 0.3);
-                  	border: none;
-                  	width: 43.5%;
-                  	text-align: center;
-                  	text-decoration: none;
-                  	display: inline-block;
-                  	font-size: 16px;
-                  	cursor: pointer;
-                  	padding: 1% 3.4% 2.1% 2%;
-                  	margin-top: 5px;
+.knapFilter {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 2px 0.45px rgba(0, 0, 0, 0.3);
+border: none;
+width: 43.5%;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+padding: 1% 3.4% 2.1% 2%;
+margin-top: 5px;
 
-                  	}
+}
 
-                  	button:focus {outline:0;}
+button:focus {outline:0;}
 
-                  	.knapFilter:hover {
-                  	box-shadow: 0px 0px 6px 0.45px rgba(0, 0, 0, 0.3);
-                  	}
+.knapFilter:hover {
+box-shadow: 0px 0px 6px 0.45px rgba(0, 0, 0, 0.3);
+}
 
-                  	.knapFilter:active {
-                  	box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
-                  	}
-
-
-                  	.search{
-                  	padding: 6px 6px 6px 6px;
-                    margin-top: 5px;
-                  	margin-left: 5px;
-                    font-size: 16px;
-                  	border-width: 0.5px;
-                  	border-style: solid;
-                  	width: 75%;
-                    flex: 1;
-                  	}
-
-                  	.search:focus {
-                  	outline: none;
-                  	}
-
-                    .searchKnap {
-                    padding: 6px 5px 8px 5px;
-                    font-size: 17px;
-                    margin-top: 5px;
-                    margin-right: 5px;
-                    border: none;
-                    background-color: rgb(033, 099, 147);
-                    color: white;
-                    }
-
-                  	.searchKnap:hover{
-                  	box-shadow: 0px 0px 3.55px 0.45px rgba(0, 0, 0, 0.3);
-                  	}
+.knapFilter:active {
+box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
+}
 
 
-                      .forumColumn {
-                      display: flex;
-                      flex-direction: column;
-                      justify-content: flex-start;
-                      margin-top: 50px;
-                    	margin-left: 2.1%;
-                      margin-bottom: 20px;
-                      }
+.search{
+padding: 6px 6px 6px 6px;
+margin-top: 5px;
+margin-left: 5px;
+font-size: 16px;
+border-width: 0.5px;
+border-style: solid;
+width: 75%;
+flex: 1;
+}
+
+.search:focus {
+outline: none;
+}
+
+.searchKnap {
+padding: 6px 5px 8px 5px;
+font-size: 17px;
+margin-top: 5px;
+margin-right: 5px;
+border: none;
+background-color: rgb(033, 099, 147);
+color: white;
+}
+
+.searchKnap:hover{
+box-shadow: 0px 0px 3.55px 0.45px rgba(0, 0, 0, 0.3);
+}
 
 
-                    	.graaKasser {
-                      background-color: rgb(241, 241, 242);
-                      height: 116px;
-                      display: flex;
-                      flex-direction: row;
-                      justify-content: flex-start;
-                      width: 100;
-                      }
-
-                    	.usynligKasser {
-                    	height: 116px;
-                    	display: flex;
-                    	flex-direction: row;
-                    	justify-content: flex-start;
-                    	width: 100;
-                    	}
-
-                    	.pointMatematik{
-                    		background-color: rgb(200, 200, 200);
-                    	height: 116px;
-                    	width: 116px;
-
-                    	}
-                    	.pointDansk{
-                    		background-color: rgb(52, 103, 92);
-                    		height: 116px;
-                    		width: 116px;
-                    	}
-                    	.pointKodning{
-                    		background-color: rgb(120, 165, 163);
-                    		height: 116px;
-                    		width: 116px;
-                    	}
-
-                    	.nyKasse {
-                    			height: 116px;
-                    			width: 116px;
-
-                    	}
-
-                    	.pointKommentar{
-                    		display: flex;
-                    		flex-direction: row;
-                    	}
-
-                    	.pointTekst{
-                    	color: white;
-                    	font-weight: bold;
-                    	font-size: 50px;
-                    	text-align: center;
-                    	margin-top: 20px;
-                    	}
+.forumColumn {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-top: 50px;
+margin-left: 2.1%;
+margin-bottom: 20px;
+}
 
 
-                    	.kommentarTekst{
-                    		font-size: 14px;
-                    		color: white;
-                    		text-align: center;
-                    		margin-top: 15px;
+.graaKasser {
+background-color: rgb(241, 241, 242);
+height: 116px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 100;
+}
 
-                    	}
+.usynligKasser {
+height: 116px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+width: 100;
+}
 
-                    	.forumTekst {
-                    		display: flex;
-                    		flex-direction: column;
-                    		justify-content: space-between;
-                    		width: 85%;
-                    	}
+.pointMatematik{
+background-color: rgb(200, 200, 200);
+height: 116px;
+width: 116px;
 
-                    	.forumTitel {
-                    		font-size: 32px;
-                    		margin: 22px 20px 0px 20px;
-                    		font-weight: bold;
-                    	}
+}
+.pointDansk{
+background-color: rgb(52, 103, 92);
+height: 116px;
+width: 116px;
+}
+.pointKodning{
+background-color: rgb(120, 165, 163);
+height: 116px;
+width: 116px;
+}
 
-                    	.forumBund {
-                    		display: flex;
-                    		justify-content: space-between;
-                    		margin: 20px 0px 10px 20px;
+.nyKasse {
+height: 116px;
+width: 116px;
 
-                    	}
-                    	.flexBund {
-                    		display: flex;
-                    		justify-content: space-between;
+}
 
-                    	}
-                    	.paddingLeft {
-                    	padding: 0px 0px 5px 60px;
-                    	}
+.pointKommentar{
+display: flex;
+flex-direction: row;
+}
 
-                    	.paddingRight {
-                    	padding: 0px 60px 5px 0px;
-                    	}
+.pointTekst{
+color: white;
+font-weight: bold;
+font-size: 50px;
+text-align: center;
+margin-top: 20px;
+}
 
-                    	.forumPlus{
-                    	width: 80%;
-                    	height: 80%;
-                    padding: 10px 0px 0px 10px;
-                    	}
+
+.kommentarTekst{
+font-size: 14px;
+color: white;
+text-align: center;
+margin-top: 15px;
+
+}
+
+.forumTekst {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 85%;
+}
+
+.forumTitel {
+font-size: 32px;
+margin: 22px 20px 0px 20px;
+font-weight: bold;
+}
+
+.forumBund {
+display: flex;
+justify-content: space-between;
+margin: 20px 0px 10px 20px;
+
+}
+.flexBund {
+display: flex;
+justify-content: space-between;
+
+}
+.paddingLeft {
+padding: 0px 0px 5px 60px;
+}
+
+.paddingRight {
+padding: 0px 60px 5px 0px;
+}
+
+.forumPlus{
+width: 80%;
+height: 80%;
+padding: 10px 0px 0px 10px;
+}
+.knap {
+background-color: rgb(255, 255, 255);
+box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
+border: none;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+width: 100px;
+align-self: flex-end;
+margin-top: 10px;
+}
+.knap:active {
+box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.modal-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, .5);
+    display: block;
+}
+.modal{
+    position: absolute;
+    top: 45%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 740px;
+    display: flex;
+    justify-content: center;
+
+}
+.middle{
+    justify-content: center;
+}
+.blue-bg{
+    background: #044C7F;
+    padding: 10px;
+}
+.noteinput{
+    background: #044C7F;
+    color: #fff;
+    border: none;
+}
+textarea{
+    width: 735px;
+    height: 285px;
+    box-shadow: 0px 0px 5px 0.45px rgba(0, 0, 0, 0.3);
+}
