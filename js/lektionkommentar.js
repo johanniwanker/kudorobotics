@@ -30,12 +30,14 @@ function buildList(){
     var ulElm = document.querySelector("#forumKommentar");
 
     ulElm.innerHTML = "";
+    var name = localStorage.getItem("name");
+    var bestName = name.slice(1,-1);
 
     for(var i = 0; i < noteList.length; i++){
         var liElm = document.createElement("li");
         liElm.setAttribute("class", "kommentar_lektion center");
 
-        liElm.innerHTML = "<img class='kommentar_ikon' src='img/header/profil.png'><p class='kommentar_forfatter'> Bjarne S. </p><p class='kommentar_tekst'>" + noteList[i].text + "</p>";
+        liElm.innerHTML = "<img class='kommentar_ikon' src='img/header/profil.png'><p class='kommentar_forfatter'>" + bestName  + "</p><p class='kommentar_tekst'>" + noteList[i].text + "</p>";
 
         ulElm.appendChild(liElm);
     }
