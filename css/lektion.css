@@ -358,3 +358,16 @@
     background-color: black;
     margin: 3px;
     }
+
+    .lektion_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+    .lektion_hjerte {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    }
