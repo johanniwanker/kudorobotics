@@ -48,7 +48,7 @@ header{
     width: 250px;
 }
 
-.tooltip .tooltipsoeg, .tooltipnoti, .tooltipprofil{
+.tooltip .tooltipsoeg, .tooltipnoti, .tooltipprofil, .tooltiphjerte{
     visibility: hidden;
     background-color: white;
     color: #4f4f4f;
@@ -63,7 +63,7 @@ header{
     transition-delay: 0.2s;
   }
 
-.tooltip:hover .tooltipsoeg, .tooltip:hover .tooltipnoti, .tooltip:hover .tooltipprofil {
+.tooltip:hover .tooltipsoeg, .tooltip:hover .tooltipnoti, .tooltip:hover .tooltipprofil, .tooltip:hover .tooltiphjerte {
     visibility: visible;
 
 }
