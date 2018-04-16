@@ -298,6 +298,9 @@ flex-direction: column-reverse;
 button{
     border: none;
 }
+button:hover{
+    cursor: pointer;
+}
 
 .graa{
     background-color: rgb(241, 241, 242);
