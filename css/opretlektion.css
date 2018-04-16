@@ -405,3 +405,16 @@
     .margin_left {
     margin-left: 5px;
     }
+
+    .titel_input::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .titel_input:-ms-input-placeholder {
+       color: #fff;
+    }
+
+    .titel_input::-ms-input-placeholder {
+       color: #fff;
+    }
