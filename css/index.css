@@ -87,6 +87,7 @@ a{
 }
 
 /* Flex */
+
 .flex{
     display: flex;
 }
@@ -157,6 +158,10 @@ color: #044C7F;
 bottom: -30px;
 text-align: center;
 position: relative;
+}
+
+.linkCard:hover{
+  text-decoration: underline;
 }
 
 .plusBox {
