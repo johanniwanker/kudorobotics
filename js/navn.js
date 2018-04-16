@@ -22,5 +22,5 @@ function submitNameEvent(event) {
 }
 
 
-var submitNoteBtn = document.querySelector("#login");
+var submitNameBtn = document.querySelector("#login");
 submitNameBtn.addEventListener("click", submitNameEvent);

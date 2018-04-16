@@ -31,13 +31,12 @@ function buildList(){
 
     ulElm.innerHTML = "";
     var name = localStorage.getItem("name");
-    var bestName = name.slice(1,-1);
 
     for(var i = 0; i < noteList.length; i++){
         var liElm = document.createElement("li");
         liElm.setAttribute("class", "list");
 
-        liElm.innerHTML = "<li class='flex space svarene'><div class='flex'><img class='foto' src='img/favicon.png'><div class='margin-l-5'><h3 class='bold'>" + bestName + "</h3><p>" + noteList[i].text + "</p><a href=''><p class='bold blue'>Svar</p></a></div></div><div class='updown flex center'><div class='flex-column'><a href=''><img class='symbol' src='img/upvote.png'></a><a href=''><img class='symbol' src='img/downvote.png'></a></div><div class='flex'><p class='bold'>0</p><p class='margin-l-5'> point</p></div></div></li>";
+        liElm.innerHTML = "<li class='flex space svarene'><div class='flex'><img class='foto' src='img/favicon.png'><div class='margin-l-5'><h3 class='bold'>" + name + "</h3><p>" + noteList[i].text + "</p><a href=''><p class='bold blue'>Svar</p></a></div></div><div class='updown flex center'><div class='flex-column'><a href=''><img class='symbol' src='img/upvote.png'></a><a href=''><img class='symbol' src='img/downvote.png'></a></div><div class='flex'><p class='bold'>0</p><p class='margin-l-5'> point</p></div></div></li>";
 
         ulElm.appendChild(liElm);
     }
