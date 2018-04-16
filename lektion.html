@@ -14,7 +14,7 @@
             <div class="content flex space center">
                 <a href="index.html"><img class="logo" src="img/header/kedu_logo.png"></a>
                 <ul class="flex space navigation">
-                    <li><a class="navi" href="lektioner.html">Lektioner</a></li>
+                    <li><a class="navi current" href="lektioner.html">Lektioner</a></li>
                     <li><a class="navi" href="forum.html">Forum</a></li>
                     <li><a class="navi" href="support.html">Support</a></li>
                 </ul>
@@ -78,28 +78,23 @@ måde.               </div>
               </div>
 
               <div class="lektion_progress">
-              <a href=""><p class="progress_start"> &#9658;</p></a>
+              <a href=""><p class="progress_start boks"> &#9658;</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_faerdig"> 1.1</p></a>
+              <a href=""><p class="progress_faerdig boks"> 1.1</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_faerdig"> 1.2</p></a>
+              <a href=""><p class="progress_faerdig boks"> 1.2</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_faerdig"> 1.3</p></a>
+              <a href=""><p class="progress_faerdig boks"> 1.3</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_ny"> 2.1</p></a>
+              <a href=""><p class="progress_ny boks"> 2.1</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_ny"> 2.2</p></a>
+              <a href=""><p class="progress_ny boks"> 2.2</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_ny"> 3.1</p></a>
+              <a href=""><p class="progress_ny boks"> 3.1</p></a>
               <div class="linje"></div>
-              <a href=""><p class="progress_ny"> 3.2</p></a>
+              <a href=""><p class="progress_ny boks"> 3.2</p></a>
               <div class="linje"></div>
-              <a href=""><div class="progress_slut"> <div class="firkant"></div> </div></a>
-
-
-
-
-
+              <a href=""><div class="progress_slut boks"> <div class="firkant"></div> </div></a>
               </div>
 
 
@@ -168,13 +163,15 @@ lektion gjorde det let at guide børnne i brugen af KUBO.</p>
                   <div class="kommentar_lektion center">
                   <img class="kommentar_ikon" src="img/header/profil.png">
                   <p class="kommentar_forfatter"> Bjarne S. </p>
-                  <p class="kommentar_tekst"> Jeg er enig med ovenstående. Prøv at genstarte den og fortæl os hvordan det gik.</p>
+                  <p class="kommentar_tekst"> Fantastisk!</p>
                   </div>
+
+                      <ul id="forumKommentar"></ul>
 
                   <div class="kommentar_lektion center">
                   <img class="kommentar_ikon" src="img/header/profil.png">
-                  <input class="skriv_kommentar" type="text" placeholder="Søg..." name="kommentar">
-                    <a class="knap"> Send </a>
+                  <input class="skriv_kommentar" type="text" placeholder="Skriv kommentar" name="kommentar" id="kommentar">
+                    <a class="knap" id="addComment"> Send </a>
                   </div>
 
 
@@ -206,6 +203,6 @@ lektion gjorde det let at guide børnne i brugen af KUBO.</p>
         </footer>
 
 
-
+        <script src="js/lektionkommentar.js"></script>
     </body>
 </html>
