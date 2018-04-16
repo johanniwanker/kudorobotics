@@ -246,9 +246,7 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
     justify-content: center;
 
 }
-.middle{
-    justify-content: center;
-}
+
 .blue-bg{
     background: #044C7F;
     padding: 10px;
@@ -258,6 +256,19 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
     color: #fff;
     border: none;
 }
+.noteinput::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.noteinput:-ms-input-placeholder {
+   color: #fff;
+}
+
+.noteinput::-ms-input-placeholder {
+   color: #fff;
+}
+
 textarea{
     width: 735px;
     height: 285px;
@@ -273,4 +284,9 @@ width: 100;
 }
 .list:nth-child(odd){
     background: rgb(241, 241, 242);
+}
+select {
+margin-right: 10px;
+border-radius: 1px;
+background-color: #f1f1f1;
 }
