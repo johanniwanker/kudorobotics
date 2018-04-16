@@ -179,6 +179,7 @@ width: 85%;
 font-size: 32px;
 margin: 22px 20px 0px 20px;
 font-weight: bold;
+width: 100%;
 }
 
 .forumBund {
@@ -233,7 +234,7 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
     bottom: 0;
     z-index: 100;
     background-color: rgba(0, 0, 0, .5);
-    display: block;
+    display: none;
 }
 .modal{
     position: absolute;
@@ -244,7 +245,6 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
     width: 740px;
     display: flex;
     justify-content: center;
-
 }
 
 .blue-bg{
@@ -294,4 +294,23 @@ background-color: #f1f1f1;
 #forumpostes{
 display: flex;
 flex-direction: column-reverse;
+}
+button{
+    border: none;
+}
+
+.graa{
+    background-color: rgb(241, 241, 242);
+    height: 116px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.opret-ny{
+    font-size: 32px;
+    font-weight: bold;
+    width: 100%;
+}
+.opret-tekst{
+    margin-left: 10px;
 }
