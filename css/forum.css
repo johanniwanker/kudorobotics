@@ -233,7 +233,7 @@ box-shadow: 0px 0px 1px 0.45px rgba(0, 0, 0, 0.3);
     bottom: 0;
     z-index: 100;
     background-color: rgba(0, 0, 0, .5);
-    display: none;
+    display: block;
 }
 .modal{
     position: absolute;
@@ -284,4 +284,9 @@ width: 100;
 }
 .list:nth-child(odd){
     background: rgb(241, 241, 242);
+}
+select {
+margin-right: 10px;
+border-radius: 1px;
+background-color: #f1f1f1;
 }
