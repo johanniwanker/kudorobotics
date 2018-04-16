@@ -10,12 +10,13 @@
     margin-top: 50px;
     margin-bottom: 20px;
     width: 100%;
+    margin-left: 5px;
     }
 
     .kommentarer {
     background-color: rgb(241, 241, 242);
     box-shadow: 0px 0px 8.55px 0.45px rgba(0, 0, 0, 0.3);
-    height: 242px;
+    min-height: 242px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,7 +172,7 @@
 
     .kommentarer_hvid {
       background-color: rgb(255, 255, 255);
-      height: 242px;
+      min-height: 242px;
       margin-top: 2px;
       display: flex;
       flex-direction: column;
@@ -244,6 +245,7 @@
     font-size: 16px;
     padding-left: 3%;
     padding-right: 20px;
+    width: 100%;
     }
 
     .skriv_kommentar{
@@ -287,7 +289,12 @@
     flex-direction: column;
     padding-top: 50px;
     width: 2.1%;
+    margin: 0px 5px;
 
+    }
+
+    .boks{
+        width: 25px;
     }
 
     .progress_start{
@@ -298,6 +305,7 @@
     font-size: 20px;
     padding-top: 2px;
     padding-bottom: 2px;
+    width: 30px;
     }
 
     .progress_slut{
@@ -338,10 +346,11 @@
     padding-bottom: 2px;
     }
 
+
     .linje {
         border-left: 6px solid rgb(033, 099, 147);
         height: 50px;
-        margin-left: 38%;
+        margin-left: 60%;
     }
 
     .firkant {
