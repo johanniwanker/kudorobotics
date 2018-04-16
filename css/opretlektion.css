@@ -329,9 +329,9 @@
     }
 
     .linje {
-        border-left: 6px solid rgb(033, 099, 147);
-        height: 50px;
-        margin-left: 60%;
+    border-left: 6px solid rgb(033, 099, 147);
+    height: 50px;
+    margin-left: 60%;
     }
 
     .plus {
@@ -367,13 +367,17 @@
     }
 
     .om_textarea {
-      width: 100%;
-      height: 350px;
-      padding: 5px 10px;
-      box-sizing: border-box;
-      border: none;
-      font-size: 16px;
-      resize: none;
+    width: 100%;
+    height: 350px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    resize: none;
+    }
+    .om_textarea:focus {
+    outline: none;
+
     }
 
     .lektion_textarea {
@@ -384,6 +388,10 @@
     border: none;
     font-size: 16px;
     resize: none;
+    }
+
+    .lektion_textarea:focus {
+    outline: none;
     }
 
     .titel_input {
@@ -402,6 +410,11 @@
     text-align: right;
     }
 
+    .tilbage:focus {
+    outline: none;
+
+    }
+
     .select {
     margin-right: 10px;
     border-radius: 1px;
@@ -410,4 +423,17 @@
 
     .margin_left {
     margin-left: 5px;
+    }
+
+    .titel_input::placeholder {
+        color: #fff;
+        opacity: 1;
+    }
+
+    .titel_input:-ms-input-placeholder {
+       color: #fff;
+    }
+
+    .titel_input::-ms-input-placeholder {
+       color: #fff;
     }
