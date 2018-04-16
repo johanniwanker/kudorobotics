@@ -13,11 +13,25 @@
       <header>
           <div class="content flex space center">
               <a href="index_login.html"><img class="logo" src="img/header/kedu_logo.png"></a>
-                <form action="index_login.html" method="post" class="flex">
-                    <input id="name" class="brugernavn" type="text" placeholder="Brugernavn">
-                    <input class="password" type="password" placeholder="Password">
-                    <input id="login" class="knap" type="submit" value="Log in">
-                </form>
+              <ul class="flex space navigation">
+                  <li><a class="navi" href="lektioner.html">Lektioner</a></li>
+                  <li><a class="navi" href="forum.html">Forum</a></li>
+                  <li><a class="navi" href="support.html">Support</a></li>
+              </ul>
+              <div class="flex space icon-width">
+                <div class="tooltip">
+                  <a href="search.html"><img class="icon" src="img/header/soege.png"></a>
+                  <span class="tooltipsoeg">Søg</span>
+                </div>
+                <div class="tooltip">
+                  <a href="notifikationer.html"><img class="icon noti" src="img/header/notiknaptre.png"></a>
+                  <span class="tooltipnoti">Notifikationer</span>
+                </div>
+                <div class="tooltip">
+                  <a href="profil.html"><img class="icon profil" src="img/header/profil.png"></a>
+                  <span class="tooltipprofil">Min Side</span>
+                </div>
+              </div>
           </div>
       </header>
 
@@ -26,8 +40,42 @@
                 <div class = "column">
 
                 <div class = "cardColumn">
-                  <a href="" class="overskriftVenstre"> Forum </a>
-                  <a href="" class = "hvidBox">
+                  <a href="lektion.html" class="overskriftVenstre"> Fortsæt Lektion </a>
+                  <a href="lektion.html" class = "hvidBox">
+                    <div class = "danskLeft">
+                      <p class = "textLeft"> Dansk</p>
+                      <p class = "textLeft"> 0. Klasse </p>
+                    </div>
+                    <div class="hvidTekst">
+                    <p class="titelVenstre">Ende/ene </p>
+                    <p class="forfatterVenstre">af Bjarne Sørensen</p>
+                </div>
+                </a>
+                <a href="lektion.html" class = "hvidBox">
+                  <div class = "matematikLeft">
+                    <p class = "textLeft"> Matematik</p>
+                    <p class = "textLeft"> 0. Klasse </p>
+                </div>
+                    <div class="hvidTekst">
+                <p class="titelVenstre"> Grundtrinenenene </p>
+                <p class="forfatterVenstre">af Bjarne Sørensen</p>
+                </div>
+                </a>
+                <a href="lektion.html" class = "hvidBox">
+                  <div class = "matematikLeft">
+                  <p class = "textLeft"> Matematik</p>
+                  <p class = "textLeft"> 2. Klasse </p>
+                </div>
+                    <div class="hvidTekst">
+                <p class="titelVenstre"> De rette loops </p>
+                <p class="forfatterVenstre">af Bjarne Sørensen</p>
+                </div>
+                </a>
+                </div>
+
+                <div class = "cardColumn">
+                  <a href="forum.html" class="overskriftVenstre"> Forum </a>
+                  <a href="forumpost.html" class = "hvidBox">
                     <div class = "matematikLeft">
                       <p class = "textLeft"> Matematik</p>
                       <p class = "textLeft"> 2. Klasse </p>
@@ -40,7 +88,7 @@
                   </div>
                 </div>
                 </a>
-                <a href="" class = "hvidBox">
+                <a href="forumpost.html" class = "hvidBox">
                   <div class = "danskLeft">
                     <p class = "textLeft"> Dansk</p>
                     <p class = "textLeft"> 5. Klasse </p>
@@ -53,7 +101,7 @@
                 </div>
                 </div>
                 </a>
-                <a href="" class = "hvidBox">
+                <a href="forumpost.html" class = "hvidBox">
                   <div class = "matematikLeft">
                   <p class = "textLeft"> Matematik</p>
                   <p class = "textLeft"> 1. Klasse </p>
@@ -69,7 +117,7 @@
                 </div>
 
                 <div class = "cardColumn">
-                  <a href="https://kubo-robot.com/news/" target="_blank" class="overskriftVenstre"> Nyheder fra KUBO </a>
+                  <a href class="overskriftVenstre"> Nyheder fra KUBO </a href>
                   <a href="https://kubo-robot.com/kubo-comes-to-the-us/" class = "hvidNyhed">
                     <img src="img/foto1.jpg" alt="KEDU img3" style="height:59px;width:33%">
                     <div class="hvidTekst">
@@ -92,9 +140,9 @@
                 </div>
             </div>
             <main>
-              <h1>Login for at læse mere</h1>
+              <h1>Ugens mest populære lektioner</h1>
               <div class = "grid">
-                 <a href="" class= "cardGrid">
+                 <a href="lektion.html" class= "cardGrid">
                    <div class= "danskBox">
                      <h3 class= "titelCard">
                        Lær at plusse med KUBO
@@ -117,7 +165,7 @@
                    </div>
                  </a>
 
-                <a href="" class= "cardGrid">
+                <a href="lektion.html" class= "cardGrid">
                   <div class= "danskBox">
                     <h3 class= "titelCard">
                       Lær at plusse med KUBO
@@ -140,7 +188,7 @@
                   </div>
                 </a>
 
-                <a href="" class= "cardGrid">
+                <a href="lektion.html" class= "cardGrid">
                   <div class= "kodningBox">
                     <h3 class= "titelCard">
                       Lær at plusse med KUBO
@@ -163,7 +211,7 @@
                   </div>
                 </a>
 
-                <a href="" class= "cardGrid">
+                <a href="lektion.html" class= "cardGrid">
                   <div class= "matematikBox">
                     <h3 class= "titelCard">
                       Lær at plusse med KUBO
@@ -186,7 +234,7 @@
                   </div>
                 </a>
 
-                <a href="" class= "cardGrid">
+                <a href="lektion.html" class= "cardGrid">
                   <div class= "matematikBox">
                     <h3 class= "titelCard">
                       Lær at plusse med KUBO
@@ -209,7 +257,7 @@
                   </div>
                 </a>
 
-                <a href="" class= "cardGrid">
+                <a href="lektion.html" class= "cardGrid">
                   <div class= "matematikBox">
                     <h3 class= "titelCard">
                       Lær at plusse med KUBO
@@ -232,6 +280,76 @@
                   </div>
                 </a>
 
+                <a href="lektion.html" class= "cardGrid">
+                  <div class= "matematikBox">
+                    <h3 class= "titelCard">
+                      Lær at plusse med KUBO
+                    </h3>
+                    <h4 class= "titelCard">
+                      Matematik - 2. klasse
+                    </h4>
+                  </div>
+                  <p class= "cardText">
+                      I denne lektion vil eleverne lærer
+                      grund elementerne i matematik
+                      Her er endnu en linje
+                      Og en fjerde, og sidste.
+                  </p>
+                  <p class= "forfatterText">
+                    Bjarne Sørensen
+                  </p>
+                  <div class= "linkCard">
+                        Læs mere
+                  </div>
+                </a>
+
+
+
+                <a href="lektion.html" class= "cardGrid">
+                  <div class= "matematikBox">
+                    <h3 class= "titelCard">
+                      Lær at plusse med KUBO
+                    </h3>
+                    <h4 class= "titelCard">
+                      Matematik - 2. klasse
+                    </h4>
+                  </div>
+                  <p class= "cardText">
+                      I denne lektion vil eleverne lærer
+                      grund elementerne i matematik
+                      Her er endnu en linje
+                      Og en fjerde, og sidste.
+                  </p>
+                  <p class= "forfatterText">
+                    Bjarne Sørensen
+                  </p>
+                  <div class= "linkCard">
+                        Læs mere
+                  </div>
+                </a>
+
+                <a href="lektion.html" class= "cardGrid">
+                  <div class= "matematikBox">
+                    <h3 class= "titelCard">
+                      Lær at plusse med KUBO
+                    </h3>
+                    <h4 class= "titelCard">
+                      Matematik - 2. klasse
+                    </h4>
+                  </div>
+                  <p class= "cardText">
+                      I denne lektion vil eleverne lærer
+                      grund elementerne i matematik
+                      Her er endnu en linje
+                      Og en fjerde, og sidste.
+                  </p>
+                  <p class= "forfatterText">
+                    Bjarne Sørensen
+                  </p>
+                  <div class= "linkCard">
+                  Læs mere
+                  </div>
+                  </a>
                </div>
             </main>
         </section>
@@ -253,7 +371,5 @@
             <h4>2018 All rights reserved</h4>
         </footer>
 
-
-            <script src="js/navn.js"></script>
     </body>
 </html>

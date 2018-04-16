@@ -35,19 +35,21 @@ function buildList(){
     var ulElm = document.querySelector("#forumpostes");
 
     ulElm.innerHTML = "";
+    var name = localStorage.getItem("name");
+    var bestName = name.slice(1,-1);
 
     for(var i = 0; i < noteList.length; i++){
         var liElm = document.createElement("li");
         liElm.setAttribute("class", "list");
 
         if(noteList[i].fag == "Matematik"){
-        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointMatematik'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointMatematik'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af " + bestName + "</p></div></div></div></a>";
         }
         if(noteList[i].fag == "Dansk"){
-        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointDansk'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointDansk'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af " + bestName + "</p></div></div></div></a>";
         }
         if(noteList[i].fag == "Kodning"){
-        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointKodning'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af Bjarne S.</p></div></div></div></a>";
+        liElm.innerHTML = "<a href='forumpost.html' class='kasser'><div class='pointKodning'><p class='pointTekst'>0</p><p class='kommentarTekst'>0 komm.</p></div><div class='forumTekst'><p class='forumTitel'>" + noteList[i].text + "</p><div class='forumBund'><div class='flexBund'><p class='paddingRight'>" + noteList[i].fag + "</p><p class='paddingRight'> " + noteList[i].klasse + "</p></div><div class='flexBund'><p class='paddingLeft'>" + noteList[i].today + "</p><p class='paddingLeft'>af " + bestName + "</p></div></div></div></a>";
         }
 
         ulElm.appendChild(liElm);
