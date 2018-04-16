@@ -290,3 +290,8 @@ margin-right: 10px;
 border-radius: 1px;
 background-color: #f1f1f1;
 }
+
+#forumpostes{
+display: flex;
+flex-direction: column-reverse;
+}
